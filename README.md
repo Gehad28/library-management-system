@@ -4,11 +4,14 @@
 
 This project is an Angular-based web application designed to facilitate the management of library operations. It utilizes RESTful APIs for seamless communication with a Django backend.
 
-*The Backend is implemented by @RanaEssam03 in ![Library-Management-System](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend)*
+*The Backend is implemented by [Rana Essam](https://github.com/RanaEssam03) in [Library-Management-System](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend)*
 
 ## Demo
 
-![Demo Video](demo.mp4)
+
+https://github.com/user-attachments/assets/6ec207a5-0e6d-4c2d-b0a0-e2daa7059899
+
+
 
 ## API Integration
 
@@ -27,7 +30,7 @@ The application is styled using Angular Material, providing a modern and respons
 
 ## Getting Started
 
-To set up the application locally, follow these steps after running the backend server from ![https://github.com/RanaEssam03/Library-Management-System/tree/main/backend](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend):
+To set up the application locally, follow these steps after running the backend server from [https://github.com/RanaEssam03/Library-Management-System/tree/main/backend](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend):
 
 1. Clone the repository:
    ```bash
