@@ -1,4 +1,4 @@
-# Library Management Angular Application
+# Library Management System
 
 ## Overview
 
