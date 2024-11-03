@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an Angular-based web application designed to facilitate the management of library operations. It utilizes RESTful APIs for seamless communication with a Django backend.
+This project is an Angular-based web application designed to facilitate the management of library operations. It utilizes RESTful APIs for seamless communication with a Flask backend.
 
 *The Backend is implemented by [Rana Essam](https://github.com/RanaEssam03) in [Library-Management-System](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend)*
 
