@@ -1,0 +1,23 @@
+<div class="container">
+    <h6>Add Book</h6>
+    <form name="addBookForm" (ngSubmit)="onSubmit()">
+        @if (errorMessage) {
+            <p class="error">{{errorMessage}}</p>
+        }
+        <mat-form-field>
+            <mat-label>Title</mat-label>
+            <input matInput name="title" [(ngModel)]="title.text" required>
+            @if (!title.valid) {
+                <mat-error>You must enter the title</mat-error>
+            }
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Author</mat-label>
+            <input matInput name="author" [(ngModel)]="author.text" required>
+            @if (!author.valid) {
+                <mat-error>You must enter the author</mat-error>
+            }
+        </mat-form-field>
+        <button mat-flat-button>Add</button>
+    </form>
+</div>
