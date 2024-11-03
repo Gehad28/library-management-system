@@ -1,27 +1,56 @@
-# LibraryManagementSystem
+# Library Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+This is an Angular web application for managing library operations. It utilizes RESTful APIs to communicate with exteranl backend.
 
-## Development server
+# Library Management Angular Application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Overview
 
-## Code scaffolding
+This project is an Angular-based web application designed to facilitate the management of library operations. It utilizes RESTful APIs for seamless communication with a Django backend.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+*The Backend is implemented by @RanaEssam03 in ![Library-Management-System](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend)*
 
-## Build
+## Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+![Demo Video](demo.mp4)
 
-## Running unit tests
+## API Integration
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The application leverages the following RESTful API endpoints to perform various operations:
 
-## Running end-to-end tests
+- **Retrieve All Books:** `GET /get-all-books`
+- **Retrieve Specific Book:** `GET /get-book/:id`
+- **Delete a Book:** `DELETE /delete-book/:id`
+- **Add a New Book:** `POST /add-book`, `Body: { title: '', author: ''}`
+- **Borrow a Book:** `PUT /borrow-book/:id`
+- **Return a Book:** `PUT /return-book/:id`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Styling
 
-## Further help
+The application is styled using Angular Material, providing a modern and responsive user experience.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Getting Started
+
+To set up the application locally, follow these steps after running the backend server from ![https://github.com/RanaEssam03/Library-Management-System/tree/main/backend](https://github.com/RanaEssam03/Library-Management-System/tree/main/backend):
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Change into the project directory:
+   ```bash
+   cd <project-directory>
+   ```
+
+3. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   ng serve
+   ```
+
+5. Open your browser and navigate to `http://localhost:4200` to view the application.
