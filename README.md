@@ -1,7 +1,3 @@
-# Library Management System
-
-This is an Angular web application for managing library operations. It utilizes RESTful APIs to communicate with exteranl backend.
-
 # Library Management Angular Application
 
 ## Overview
